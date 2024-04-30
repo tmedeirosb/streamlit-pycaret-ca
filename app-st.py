@@ -4,6 +4,9 @@ from pycaret.classification import load_model, predict_model
 import numpy as np
 import pandas as pd
 
+#import pycaret
+#st.write(pycaret.__version__)
+
 # Carregar o modelo treinado
 model = load_model('final_cancer')
 
